@@ -2,6 +2,11 @@
 
 ## Setup
 
+Use of this library requires that the PHP cURL extension be enabled in your php.ini file.  Edit the file and uncomment the following line (remove the ; from the beginning of the line):
+```
+  ;extension=php_curl.dll
+```
+
 require the RxgPhpClient.php file into your project and initialize an instance.
 
 ```
